@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 250vh;
+  color: #fff;
+}
+#container {
+  height: 22vh;
+  font-size: 
+  35px;
+  background-color:#263029;
+  text-align: center;
+
+}
+.container h1{
+  font-weight: 600;
+  font-size: 38px;
+}
+.editor{
+  background:#464547;
+  text-align: start;
+  display: flex;
+
+
+  padding: 1rem;
+
+}
+
+.left , .right{
+  flex-basis: 50%;
+  padding: 10px;
+  height: 150vh;
+}
+
+label{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+label i {
+  padding-right: 5px;
+}
+
+textarea{
+  width: 100%;
+  border-radius: 15px;
+  height: 259px;
+  background-color: #1f1f1f;
+  color: #6fe747;
+  border: 0;
+  outline: 0;
+  font-size: 17px;
+  padding: 10px 20px;
+}
+ #css-code{
+  width: 100%;
+  border-radius: 15px;
+  height: 259px;
+  background-color: #1f1f1f;
+  color: #9e78f2;
+  border: 0;
+  outline: 0;
+  font-size: 17px;
+  padding: 10px 20px;
+}
+#js-code{
+  width: 100%;
+  border-radius: 15px;
+  height: 259px;
+  background-color: #1f1f1f;
+  color: #eff57e;
+  border: 0;
+  outline: 0;
+  font-size: 17px;
+  padding: 10px 20px;
+}
+iframe{
+  width: 100%;
+  height: 95%;
+  font-size: 23px;
+  border-radius: 15px 15px 0px 0px ;
+  background: #fff;
+  border: 0;
+  outline: 0;
+}
+#output{
+  font-size: 23px;
+
+}
+
+
