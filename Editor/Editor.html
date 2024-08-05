@@ -17,19 +17,25 @@
 
     <div class="editor">
       <div class="left">
-        <label> <i class="bi bi-filetype-html"></i> HTML </label>
+        <label for="html-code"> <i class="bi bi-filetype-html"></i> HTML </label>
         <textarea  id="html-code" spellcheck="false" cols="40" rows="10" onkeyup="run()" ></textarea>
 
-        <label> <i class="bi bi-filetype-css"></i> CSS </label>
+        <label for="css-code" > <i class="bi bi-filetype-css"></i> CSS </label>
         <textarea  id="css-code" onkeyup="run()" spellcheck="false" cols="20" rows="10"></textarea>
 
-        <label> <i class="bi bi-filetype-js"></i> JAVA SCRIPT </label>
-        <textarea  id="js-code"   onkeyup="run()" spellcheck="false" cols="20" rows="10"></textarea>
+        <!-- <label> <i class="bi bi-filetype-js"></i> JAVA SCRIPT </label>
+        <textarea  id="js-code"   onkeyup="run()" spellcheck="false" cols="20" rows="10"></textarea> -->
+
+        
+          <label for="js-code"> <i class="bi bi-filetype-js"></i> JavaScript </label>
+          <textarea id="js-code" placeholder="Enter JavaScript code here..." onkeyup="run()" spellcheck="false" cols="20" rows="10"></textarea>
+        
       </div>
 
     <div class="right">
       <label > <i class="bi bi-caret-right-fill"></i> Output </label>
-      <iframe id="output" ></iframe>
+    
+      <iframe id="output" title="Output Frame"></iframe>
 
 
 
